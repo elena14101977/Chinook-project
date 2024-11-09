@@ -1,0 +1,26 @@
+
+version: 2
+
+sources:
+  - name: stg 
+    database: Chinook
+    schema: stg     
+    tables:
+      - name: playlisttrack
+      - name: playlist
+      - name: customer
+      - name: employee
+      - name: department_budget
+      - name: album
+      - name: artist
+      - name: mediatype
+      - name: genre
+      - name: track
+      - name: invoice
+      - name: invoiceline
+      - name: dim_currency
+      
+
+
+
+
